@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+.debajo-icono {
+    display: block;
+    text-align: center; 
+}
+
+body {
+    font-family: "Orbitron", Arial, sans-serif;
+    line-height: 1.6;
+    color: #2afd00; 
+    background-color: #000;
+
+}
+
+header {
+    background-color: #ee23bb;
+    padding: 20px;
+    border-bottom: 10px solid #a708f17e;
+    font-family: "Orbitron";
+}
+
+h1 {
+    color: #13f531;
+    top: 45px;
+    left: 60px;
+    position: absolute;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+    border-radius: 15px;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all 0.3s ease 0s;
+}
+
+main {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #000; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h2 {
+    font-size: 25px;
+    color: #39ff14; 
+    margin-bottom: 10px;
+}
+
+article time {
+    font-size: 15px;
+    color: #ff77e9; 
+}
+
+article p {
+    margin-top: 10px;
+}
+
+article a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff; 
+    background-color: #6f42c1; 
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+article a:hover {
+    background-color: #10fc10; 
+    transform: scale(110%);
+    color: #fc10d4;
+}
+
+footer {
+    background-color: #6f42c1; 
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e3e3e3;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fff; 
+}
+
+.box:hover .material-symbols-outlined {
+    color: #2afd00;
+    transform: scale(120%); 
+}
+
+.box:hover .debajo-icono {
+    color: #39ff14; 
+}
+
+
+.cajita {
+    background-color: #45e23018; 
+    padding: 20px;
+    border-radius: 15px; 
+    box-shadow: 0 2px 5px rgba(238, 205, 205, 0.1); 
+    margin-bottom: 20px; 
+    border: 5px solid #cccccc; 
+
+}
+
+.fecha-conjunto {
+    color: rgb(168, 226, 151);text-align: right;
+    margin-bottom: 20px;
+}
